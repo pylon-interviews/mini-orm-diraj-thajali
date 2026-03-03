@@ -1,0 +1,10 @@
+{
+  "workbench.startupEditor": "readme",
+  "workbench.activityBar.location": "hidden",
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.size": "fill",
+  "chat.disableAIFeatures": true,
+  "workbench.panel.defaultLocation": "right",
+  "zenMode.centerLayout": false,
+  "terminal.integrated.tabs.enabled": false
+}

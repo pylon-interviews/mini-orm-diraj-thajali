@@ -1,0 +1,25 @@
+{
+  "name": "Pylon Mini-ORM interview",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "features": {
+    "ghcr.io/devcontainers/features/nix:1": {
+      "packages": "bun,typescript,eslint,prettier,python3,ruff,mypy"
+    }
+  },
+  "containerEnv": {
+    "PS1": "[\\d]$"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "MS-vsliveshare.vsliveshare"
+      ]
+    }
+  }
+}
